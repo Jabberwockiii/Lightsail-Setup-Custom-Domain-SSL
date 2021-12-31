@@ -11,5 +11,5 @@ app.get("/", (req, res) => {
 });
 
 app.get("/:name", (req, res) => {
-  res.send(`Hello,different ${req.params.name}`);
+  res.send(`Hello,different2 ${req.params.name}`);
 });
